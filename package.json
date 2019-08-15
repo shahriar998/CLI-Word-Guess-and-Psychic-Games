@@ -1,0 +1,24 @@
+{
+  "name": "CLI-Word-Guess-and-Psychic-Games",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shahriar998/CLI-Word-Guess-and-Psychic-Games.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shahriar998/CLI-Word-Guess-and-Psychic-Games/issues"
+  },
+  "homepage": "https://github.com/shahriar998/CLI-Word-Guess-and-Psychic-Games#readme",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "inquirer": "^6.5.1"
+  }
+}
