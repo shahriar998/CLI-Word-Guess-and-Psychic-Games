@@ -1,20 +1,22 @@
-function Letter (guessed, letter){
 
-    this.guessed = false;
-    this.letter = letter;
-    this.display = function(){
-        if(this.guessed){
-            return this.letter;
-        }
-        return ' - ';
-    }
-    this.checkFunction = function(guessedLetter){
-        if(guessedLetter===this.letter && this.guessed){
-            this.guessed=true;
-return true;
-        }
-        return false;
-    }
-}
-
-module.export = Letter;
+function Letter(character) {
+    this.character = character.toUpperCase();
+    this.guessedCorrectly = false;
+  
+    this.returnCharacter = function() {
+      if (this.guessedCorrectly) {
+        return this.character;
+      } else {
+        return "_";
+      };
+    };
+  
+    this.check = function(guess) {
+      if (this.character.toLowerCase() == guess.toLowerCase()) {
+        this.guessedCorrectly = true;
+      } else {
+      };
+    };
+  };
+  
+  module.exports = Letter;
