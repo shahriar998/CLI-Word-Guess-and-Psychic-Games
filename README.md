@@ -9,7 +9,7 @@ A "Hangman" type game you can play in your terminal.
 ## Installation
 You can install and run with NPM. Simply open your terminal and type the following commands:
 ```
-$ git clone https://www.github.com/adnanyousef/word-guess-cli.git
+$ git clone https://github.com/shahriar998/CLI-Word-Guess-and-Psychic-Games
 $ cd word-guess-cli
 $ npm install
 ```
