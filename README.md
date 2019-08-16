@@ -29,6 +29,3 @@ This will make the command `word-guess-cli` available to you anywhere in your te
 3. Each time you guess an incorrect letter, your "Guesses Remaining" will reduce by 1. Once this reaches zero, you lose!
 4. If you guess the random word before exhausting your guesses remaining, you win!
 5. At the win/loss screen, you may play again by hitting the enter key, or you can exit by typing "n" or "no."
-
-## Issues
-If you encounter any bugs or have ideas to further improve this app, please submit an issue [here](https://github.com/adnanyousef/word-guess-cli/issues).
